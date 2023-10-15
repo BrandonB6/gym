@@ -1,0 +1,162 @@
+* {
+    /* border: 1px solid red; */
+}
+
+p {
+    font-size: 1.6em;
+    margin-bottom: 5px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    padding-top: 6rem;
+    
+}
+
+.work {
+    padding: 15px;
+    border: 1px solid lightgray;
+
+}
+
+.form-input {
+    padding-bottom: 20px;
+    font-size: 0.8em;
+    color: gray;
+}
+
+.form-control {
+    padding-left: 3px;
+}
+
+
+
+input::placeholder {
+    font-size: .9em;
+}
+
+.pass1 {
+    padding-left: 40px;
+    padding-right: 160px;
+}
+
+button:hover {
+    color: white;
+}
+
+button {
+    width: 23rem;
+    
+}
+
+.button1{
+    padding-bottom: 15px;
+}
+
+#button1 {
+    font-size: 0.8rem;
+    padding-top: 4px;
+    padding-bottom: 4px;
+
+}
+
+#button1:hover {
+    /* background-color: orange; */
+}
+
+#button2 {
+    font-size: 0.77rem;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    background-color: rgb(235, 235, 235);
+}
+
+#button2:hover {
+    background-color: rgb(185, 185, 185) ;
+}
+
+.help{
+    padding-left: 8%;
+    font-size: 0.8rem;
+    padding-bottom: 8px;
+
+}
+.account {
+    padding-top: 9px;
+    text-align: center;
+    padding-bottom: 55px;
+}
+
+.new {
+    max-width : 200px;
+}
+
+h6 {
+    color: rgb(150, 150, 150);
+    font-size: 0.9rem;
+}
+
+.fancy{
+    margin: 0 auto 15px;
+    text-align: center;
+    max-width: 700px;
+    position: relative;
+}
+
+.fancy:before{
+    content: '';
+    display: block;
+    width: 128px;
+    height: 2px;
+    background: rgb(175, 175, 175);
+    position: absolute;
+    left: 195px;
+    top: 50%;
+}
+.fancy:after {
+    content: '';
+    display: block;
+    width: 128px;
+    height: 2px;
+    background: rgb(175, 175, 175);
+    position: absolute;
+    right: 195px;
+    top: 50%;
+    
+    
+}
+
+a {
+    text-decoration: none;
+    font-size: 0.9rem;
+}
+
+
+footer {
+    position: absolute;
+    /* bottom: 0; */
+    height: 60px;
+    border-top-width: 2px;
+    border-top-style: solid;
+    border-top-color: #ababab;
+    width: 100%;
+    padding-top: 40px;
+ }
+
+.feet{
+    text-align: center;
+}
+
+.foot {
+    font-size: 0.7em;
+    padding-right: 13px;
+}
+
+.afoot {
+    padding-bottom: 13px;
+}
+
+.foot1{
+    font-size: 0.7em;
+}
